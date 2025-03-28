@@ -29,7 +29,7 @@ lunr:
   search_within_pages: true
 author:
   name     : "Abhilash Venkatesh"
-  avatar   : "/assets/images/bio.jpeg"
+  avatar   : "/assets/images/bio.jpg"
   bio      : "Currently a grad student at OMSCS. I love Linux, FOSS and systems!"
   location : "Bengaluru, India"
 footer:
