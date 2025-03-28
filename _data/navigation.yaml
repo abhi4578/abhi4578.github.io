@@ -1,0 +1,11 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Blog"
+    url: /blog/
+  - title: "Masters in CS"
+    url: /Masters-in-CS/
+  - title: "Conferences/Meetups"
+    url: /conf-meetups/
+  - title: "Learnings"
+    url: /learnings/

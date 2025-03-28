@@ -1,0 +1,45 @@
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+title: "Abhi's Personal Website"
+name: "Abhilash Venkatesh"
+description: "Abhi's collection of blogs, projects,  portfolio, conference, meetup talks."
+url: "https://abhi4578.github.io"
+repository: "abhi4578/abhi4578.github.io"
+search: true
+lunr:
+  search_within_pages: true
+author:
+  name     : "Abhilash Venkatesh"
+  avatar   : "/assets/images/bio.jpeg"
+  bio      : "Currently a grad student at OMSCS. I love Linux, FOSS and systems!"
+  location : "Bengaluru, India"
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/abhi4578"
+    - label: "Linkedin"
+      icon: "fa-brands fa-linkedin"
+      url: "https://www.linkedin.com/in/abhi5782-/"
+timezone: Asia/Calcutta
+include: ["_pages"]
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
