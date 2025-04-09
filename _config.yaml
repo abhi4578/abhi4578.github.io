@@ -40,9 +40,18 @@ footer:
     - label: "Linkedin"
       icon: "fa-brands fa-linkedin"
       url: "https://www.linkedin.com/in/abhi5782-/"
-    - label: "Twitter"
+    - label: "Google Scholar"
+      icon: "fa-brands fa-google-scholar"
+      url: "https://scholar.google.com/citations?user=8K_E_9EAAAAJ&hl=en"
+    - label: "Mastodon"
+      icon: "fa-brands fa-mastodon"
+      url: "https://noc.social/@urnbhai"
+    - label: "X"
       icon: "fa-brands fa-square-x-twitter"
-      url: "https://twitter.com/Abhi00434"
+      url: "https://X.com/Abhi00434"
+    - label: "Goodreads"
+      icon: "fa-solid fa-goodreads"
+      url: "https://goodreads.com/urnbhai"
 include: ["_pages"]
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -75,3 +84,9 @@ defaults:
       share: true
       related: true
 
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
