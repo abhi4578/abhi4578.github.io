@@ -1,3 +1,11 @@
+---
+title: "Introduction to Jekyll"
+categories:
+  - learnings
+tags:
+  - jekyll
+---
+
 ## Installing github page jekyll gem
 1. Add following in 'Gemfile'
 ```bash

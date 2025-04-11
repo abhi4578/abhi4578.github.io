@@ -64,6 +64,10 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+collections:
+  learnings:
+    output: true
+    permalink: /learnings/:path/
 defaults:
   # _pages
   - scope:
@@ -83,6 +87,14 @@ defaults:
       comments: true
       share: true
       related: true
+  - scope:
+      path: ""
+      type: learnings
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 category_archive:
   type: liquid
