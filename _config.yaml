@@ -52,6 +52,12 @@ footer:
     - label: "Goodreads"
       icon: "fa-solid fa-goodreads"
       url: "https://goodreads.com/urnbhai"
+    - label: "Source Code"
+      icon: "fa-solid fa-code"
+      url: "https://github.com/abhi4578/abhi4578.github.io"      
+    - label: "License"
+      icon: "fa-brands fa-creative-commons"
+      url: https://github.com/abhi4578/abhi4578.github.io/blob/master/License 
 include: ["_pages"]
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -83,6 +89,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: true
       read_time: true
       comments: true
       share: true
